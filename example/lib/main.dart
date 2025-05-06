@@ -44,7 +44,7 @@ class FlutterBlePeripheralExampleState
     connectable: true,
     advertiseMode: AdvertiseMode.advertiseModeBalanced,
     txPowerLevel: AdvertiseTxPower.advertiseTxPowerMedium,
-    timeout: 10000,
+    timeout: 180000,
   );
 
   final AdvertiseSetParameters advertiseSetParameters =
